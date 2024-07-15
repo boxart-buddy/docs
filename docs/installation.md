@@ -8,36 +8,34 @@ breadcrumbs: false
 ## Automatic Installation
 
 Run the following from the terminal. <br/><br/>
-It will install all dependencies, Skyscraper, php etc. on macOS and Linux platforms.
-Tested and working on Fedora 28, Debian 12, Ubuntu 22 and macOS 14.5. <br/>
+It will install all dependencies, Skyscraper, php etc. on macOS and Linux platforms.<br/>
+Tested and working on Fedora 28+, Debian 12+, Ubuntu 22+ and macOS 14.5 <br/>
 
-If it doesn't work on your particular Linux distro please raise an issue.
+If it doesn't work on your particular distro please raise an issue.
+
+You can view the script being run [here] (https://github.com/boxart-buddy/boxart-buddy/blob/main/install.sh)
 
 {{< tabs items="macOS,Linux" >}}
 
 {{< tab >}}
-
 ```bash
 # change to the directory you want to install Boxart Buddy, typically the home directory
 cd ~
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/boxart-buddy/boxart-buddy/main/install.sh)"
 ```
-
 {{< /tab >}}
 
 {{< tab >}}
-
 ```bash
 # change to the directory you want to install Boxart Buddy, typically the home directory
 cd ~
 wget -q -O - https://raw.githubusercontent.com/boxart-buddy/boxart-buddy/main/install.sh | bash
 ```
-
 {{< /tab >}}
 
 {{< /tabs >}}
 
-## Manual Installation
+## Manual Installation / Development Version
 
 First [Setup Skyscraper](https://github.com/Gemba/Skyscraper/?tab=readme-ov-file#installation-prerequisites-on-other-systems-or-architectures). Make sure you use the [newest fork](https://github.com/Gemba/Skyscraper/)
 
@@ -45,7 +43,7 @@ This application runs on PHP 8.2+ and requires a few other packages to be instal
 
 ### Install Dependencies
 
-{{< tabs items="macOS,Debian,Ubuntu,Fedora/RHEL/Centos" >}}
+{{< tabs items="macOS,Debian,Ubuntu,Fedora/RHEL/Centos,Arch Linux" >}}
 
 {{< tab >}}
 
@@ -91,6 +89,12 @@ sudo dnf update
 sudo dnf install ImageMagick php php-cli php-common php-json php-zip php-pecl-imagick php-bz2 php-curl php-mbstring php-intl unzip p7zip p7zip-plugins jpegoptim optipng pngquant composer
 ```
 
+{{< /tab >}}
+{{< tab >}}
+```shell
+    pacman -S --needed php imagemagick php-imagick bzip2 wget jpegoptim optipng pngquant p7zip unzip qt5-base qt5-tools qt5ct composer base-devel
+```
+You'll probably need to [manually enable various php extensions] (https://github.com/boxart-buddy/boxart-buddy/blob/main/install.sh#L23)
 {{< /tab >}}
 
 {{< /tabs >}}
