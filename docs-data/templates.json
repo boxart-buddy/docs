@@ -1,0 +1,197 @@
+[
+    {
+        "templateName": "artbook-next",
+        "variantName": "artbook_next",
+        "notes": "",
+        "previewPath": "template\/preview\/artbook-next.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/artbook-next.webp"
+        },
+        "type": "sibling",
+        "interface": "full+front",
+        "portmaster": true,
+        "folder": true
+    },
+    {
+        "templateName": "artbook-next",
+        "variantName": "artbook_next_alt",
+        "notes": "",
+        "previewPath": "template\/preview\/artbook-next-alt.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/artbook-next-alt.webp"
+        },
+        "type": "sibling",
+        "interface": "full+front",
+        "portmaster": true,
+        "folder": true
+    },
+    {
+        "templateName": "artbook-next",
+        "variantName": "artbook_next_vertical",
+        "notes": "",
+        "previewPath": "template\/preview\/artbook-next-vertical.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/artbook-next-vertical.webp"
+        },
+        "type": "sibling",
+        "interface": "full+front",
+        "portmaster": true,
+        "folder": true
+    },
+    {
+        "templateName": "cartwheel",
+        "variantName": "cartwheel_right_game_logo",
+        "notes": "some roms dont have cart images, so this variant might not work perfectly for large romsets or some platforms",
+        "previewPath": "template\/preview\/cartwheel-right-game-logo.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/cartwheel-right-game-logo.webp"
+        },
+        "type": "sibling",
+        "interface": "full+behind",
+        "portmaster": true,
+        "folder": false
+    },
+    {
+        "templateName": "cartwheel",
+        "variantName": "cartwheel_stacked_boxes",
+        "notes": "",
+        "previewPath": "template\/preview\/cartwheel-stacked-boxes.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/cartwheel-stacked-boxes.webp"
+        },
+        "type": "sibling",
+        "interface": "full+behind",
+        "portmaster": true,
+        "folder": false
+    },
+    {
+        "templateName": "friends-of-boxart-buddy",
+        "variantName": "incognitoman_retro_dither",
+        "notes": "",
+        "previewPath": "template\/preview\/incognitoman-retro-dither.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/incognitoman-retro-dither.webp"
+        },
+        "type": "standalone",
+        "interface": "full+behind",
+        "portmaster": true,
+        "folder": false
+    },
+    {
+        "templateName": "friends-of-boxart-buddy",
+        "variantName": "jdcross_brush_torn",
+        "notes": "",
+        "previewPath": "template\/preview\/jdcross-brush-torn.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/jdcross-brush-torn.webp"
+        },
+        "type": "standalone",
+        "interface": "full+front",
+        "portmaster": true,
+        "folder": false
+    },
+    {
+        "templateName": "friends-of-boxart-buddy",
+        "variantName": "jdcross_brush_emboss",
+        "notes": "",
+        "previewPath": "template\/preview\/jdcross-brush-emboss.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/jdcross-brush-emboss.webp"
+        },
+        "type": "standalone",
+        "interface": "full+front",
+        "portmaster": true,
+        "folder": false
+    },
+    {
+        "templateName": "friends-of-boxart-buddy",
+        "variantName": "tokumeino_simple_box_cart",
+        "notes": "",
+        "previewPath": "template\/preview\/tokumeino-simple-box-cart.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/tokumeino-simple-box-cart.webp"
+        },
+        "type": "standalone",
+        "interface": "full+behind",
+        "portmaster": true,
+        "folder": false
+    },
+    {
+        "templateName": "friends-of-boxart-buddy",
+        "variantName": "tokumeino_game_logo",
+        "notes": "",
+        "previewPath": "template\/preview\/tokumeino-game-logo.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/tokumeino-game-logo.webp"
+        },
+        "type": "standalone",
+        "interface": "full+behind",
+        "portmaster": true,
+        "folder": false
+    },
+    {
+        "templateName": "friends-of-boxart-buddy",
+        "variantName": "tokumeino_game_logo_halftone",
+        "notes": "",
+        "previewPath": "template\/preview\/tokumeino-game-logo-halftone.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/tokumeino-game-logo-halftone.webp"
+        },
+        "type": "standalone",
+        "interface": "full+behind",
+        "portmaster": true,
+        "folder": false
+    },
+    {
+        "templateName": "game-logo-list",
+        "variantName": "game_logo_scrolling",
+        "notes": "",
+        "previewPath": "template\/preview\/game-logo-scrolling.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/game-logo-scrolling.webp"
+        },
+        "type": "sibling",
+        "interface": "full+front",
+        "portmaster": true,
+        "folder": false
+    },
+    {
+        "templateName": "game-logo-list",
+        "variantName": "splitscreen",
+        "notes": "",
+        "previewPath": "template\/preview\/splitscreen.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/splitscreen.webp"
+        },
+        "type": "sibling",
+        "interface": "full+front",
+        "portmaster": true,
+        "folder": false
+    },
+    {
+        "templateName": "minimal",
+        "variantName": "text_only",
+        "notes": "",
+        "previewPath": "template\/preview\/minimal-text-only.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/minimal-text-only.webp"
+        },
+        "type": "standalone",
+        "interface": "full+front",
+        "portmaster": true,
+        "folder": true
+    },
+    {
+        "templateName": "minimal",
+        "variantName": "text_screenshot",
+        "notes": "",
+        "previewPath": "template\/preview\/minimal-text-screenshot.webp",
+        "themePreviewPaths": {
+            "default": "template\/preview\/minimal-text-screenshot.webp"
+        },
+        "type": "standalone",
+        "interface": "full+front",
+        "portmaster": true,
+        "folder": true
+    }
+]
