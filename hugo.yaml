@@ -3,7 +3,7 @@ title: Boxart Buddy
 contentDir: docs
 dataDir: docs-data
 assetDir: docs-assets
-baseURL: https://boxart-buddy.github.io/boxart-buddy/
+baseURL: https://boxart-buddy.github.io/docs/
 
 enableInlineShortcodes: true
 # import hextra as module
@@ -50,4 +50,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/boxart-buddy/boxart-buddy/edit/main"
+    base: "https://github.com/boxart-buddy/docs/edit/main"
