@@ -12,7 +12,7 @@ The process of picking options can be laborious, if you want to re-run the build
 
 Will generate boxart for every rom
 
-### Build rom Artwork?
+### Build folder Artwork?
 
 Will generate boxart for every folder
 

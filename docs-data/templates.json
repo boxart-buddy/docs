@@ -3,9 +3,9 @@
         "templateName": "artbook-next",
         "variantName": "artbook_next",
         "notes": "",
-        "previewPath": "template\/preview\/artbook-next.webp",
+        "previewPath": "\/docs\/template\/preview\/artbook-next.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/artbook-next.webp"
+            "default": "\/docs\/template\/preview\/artbook-next.webp"
         },
         "type": "sibling",
         "interface": "full+front",
@@ -16,9 +16,9 @@
         "templateName": "artbook-next",
         "variantName": "artbook_next_alt",
         "notes": "",
-        "previewPath": "template\/preview\/artbook-next-alt.webp",
+        "previewPath": "\/docs\/template\/preview\/artbook-next-alt.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/artbook-next-alt.webp"
+            "default": "\/docs\/template\/preview\/artbook-next-alt.webp"
         },
         "type": "sibling",
         "interface": "full+front",
@@ -29,9 +29,12 @@
         "templateName": "artbook-next",
         "variantName": "artbook_next_vertical",
         "notes": "",
-        "previewPath": "template\/preview\/artbook-next-vertical.webp",
+        "previewPath": "\/docs\/template\/preview\/artbook-next-vertical.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/artbook-next-vertical.webp"
+            "default": "\/docs\/template\/preview\/artbook-next-vertical.webp",
+            "gamepal-sneslight": "\/docs\/template\/preview\/artbook-next-vertical-gamepal-sneslight.webp",
+            "gbos-minimal": "\/docs\/template\/preview\/artbook-next-vertical-gbos-minimal.webp",
+            "minuified-horizontal": "\/docs\/template\/preview\/artbook-next-vertical-minuified-horizontal.webp"
         },
         "type": "sibling",
         "interface": "full+front",
@@ -42,9 +45,12 @@
         "templateName": "cartwheel",
         "variantName": "cartwheel_right_game_logo",
         "notes": "some roms dont have cart images, so this variant might not work perfectly for large romsets or some platforms",
-        "previewPath": "template\/preview\/cartwheel-right-game-logo.webp",
+        "previewPath": "\/docs\/template\/preview\/cartwheel-right-game-logo.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/cartwheel-right-game-logo.webp"
+            "default": "\/docs\/template\/preview\/cartwheel-right-game-logo.webp",
+            "gamepal-sneslight": "\/docs\/template\/preview\/cartwheel-right-game-logo-gamepal-sneslight.webp",
+            "gbos-minimal": "\/docs\/template\/preview\/cartwheel-right-game-logo-gbos-minimal.webp",
+            "minuified-horizontal": "\/docs\/template\/preview\/cartwheel-right-game-logo-minuified-horizontal.webp"
         },
         "type": "sibling",
         "interface": "full+behind",
@@ -55,9 +61,9 @@
         "templateName": "cartwheel",
         "variantName": "cartwheel_stacked_boxes",
         "notes": "",
-        "previewPath": "template\/preview\/cartwheel-stacked-boxes.webp",
+        "previewPath": "\/docs\/template\/preview\/cartwheel-stacked-boxes.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/cartwheel-stacked-boxes.webp"
+            "default": "\/docs\/template\/preview\/cartwheel-stacked-boxes.webp"
         },
         "type": "sibling",
         "interface": "full+behind",
@@ -68,9 +74,9 @@
         "templateName": "friends-of-boxart-buddy",
         "variantName": "incognitoman_retro_dither",
         "notes": "",
-        "previewPath": "template\/preview\/incognitoman-retro-dither.webp",
+        "previewPath": "\/docs\/template\/preview\/incognitoman-retro-dither.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/incognitoman-retro-dither.webp"
+            "default": "\/docs\/template\/preview\/incognitoman-retro-dither.webp"
         },
         "type": "standalone",
         "interface": "full+behind",
@@ -81,9 +87,9 @@
         "templateName": "friends-of-boxart-buddy",
         "variantName": "jdcross_brush_torn",
         "notes": "",
-        "previewPath": "template\/preview\/jdcross-brush-torn.webp",
+        "previewPath": "\/docs\/template\/preview\/jdcross-brush-torn.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/jdcross-brush-torn.webp"
+            "default": "\/docs\/template\/preview\/jdcross-brush-torn.webp"
         },
         "type": "standalone",
         "interface": "full+front",
@@ -94,9 +100,9 @@
         "templateName": "friends-of-boxart-buddy",
         "variantName": "jdcross_brush_emboss",
         "notes": "",
-        "previewPath": "template\/preview\/jdcross-brush-emboss.webp",
+        "previewPath": "\/docs\/template\/preview\/jdcross-brush-emboss.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/jdcross-brush-emboss.webp"
+            "default": "\/docs\/template\/preview\/jdcross-brush-emboss.webp"
         },
         "type": "standalone",
         "interface": "full+front",
@@ -107,9 +113,9 @@
         "templateName": "friends-of-boxart-buddy",
         "variantName": "tokumeino_simple_box_cart",
         "notes": "",
-        "previewPath": "template\/preview\/tokumeino-simple-box-cart.webp",
+        "previewPath": "\/docs\/template\/preview\/tokumeino-simple-box-cart.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/tokumeino-simple-box-cart.webp"
+            "default": "\/docs\/template\/preview\/tokumeino-simple-box-cart.webp"
         },
         "type": "standalone",
         "interface": "full+behind",
@@ -120,9 +126,9 @@
         "templateName": "friends-of-boxart-buddy",
         "variantName": "tokumeino_game_logo",
         "notes": "",
-        "previewPath": "template\/preview\/tokumeino-game-logo.webp",
+        "previewPath": "\/docs\/template\/preview\/tokumeino-game-logo.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/tokumeino-game-logo.webp"
+            "default": "\/docs\/template\/preview\/tokumeino-game-logo.webp"
         },
         "type": "standalone",
         "interface": "full+behind",
@@ -133,9 +139,9 @@
         "templateName": "friends-of-boxart-buddy",
         "variantName": "tokumeino_game_logo_halftone",
         "notes": "",
-        "previewPath": "template\/preview\/tokumeino-game-logo-halftone.webp",
+        "previewPath": "\/docs\/template\/preview\/tokumeino-game-logo-halftone.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/tokumeino-game-logo-halftone.webp"
+            "default": "\/docs\/template\/preview\/tokumeino-game-logo-halftone.webp"
         },
         "type": "standalone",
         "interface": "full+behind",
@@ -146,9 +152,12 @@
         "templateName": "game-logo-list",
         "variantName": "game_logo_scrolling",
         "notes": "",
-        "previewPath": "template\/preview\/game-logo-scrolling.webp",
+        "previewPath": "\/docs\/template\/preview\/game-logo-scrolling.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/game-logo-scrolling.webp"
+            "default": "\/docs\/template\/preview\/game-logo-scrolling.webp",
+            "gamepal-sneslight": "\/docs\/template\/preview\/game-logo-scrolling-gamepal-sneslight.webp",
+            "gbos-minimal": "\/docs\/template\/preview\/game-logo-scrolling-gbos-minimal.webp",
+            "minuified-horizontal": "\/docs\/template\/preview\/game-logo-scrolling-minuified-horizontal.webp"
         },
         "type": "sibling",
         "interface": "full+front",
@@ -159,9 +168,12 @@
         "templateName": "game-logo-list",
         "variantName": "splitscreen",
         "notes": "",
-        "previewPath": "template\/preview\/splitscreen.webp",
+        "previewPath": "\/docs\/template\/preview\/splitscreen.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/splitscreen.webp"
+            "default": "\/docs\/template\/preview\/splitscreen.webp",
+            "gamepal-sneslight": "\/docs\/template\/preview\/splitscreen-gamepal-sneslight.webp",
+            "gbos-minimal": "\/docs\/template\/preview\/splitscreen-gbos-minimal.webp",
+            "minuified-horizontal": "\/docs\/template\/preview\/splitscreen-minuified-horizontal.webp"
         },
         "type": "sibling",
         "interface": "full+front",
@@ -172,9 +184,12 @@
         "templateName": "minimal",
         "variantName": "text_only",
         "notes": "",
-        "previewPath": "template\/preview\/minimal-text-only.webp",
+        "previewPath": "\/docs\/template\/preview\/minimal-text-only.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/minimal-text-only.webp"
+            "default": "\/docs\/template\/preview\/minimal-text-only.webp",
+            "gamepal-sneslight": "\/docs\/template\/preview\/minimal-text-only-gamepal-sneslight.webp",
+            "gbos-minimal": "\/docs\/template\/preview\/minimal-text-only-gbos-minimal.webp",
+            "minuified-horizontal": "\/docs\/template\/preview\/minimal-text-only-minuified-horizontal.webp"
         },
         "type": "standalone",
         "interface": "full+front",
@@ -185,11 +200,30 @@
         "templateName": "minimal",
         "variantName": "text_screenshot",
         "notes": "",
-        "previewPath": "template\/preview\/minimal-text-screenshot.webp",
+        "previewPath": "\/docs\/template\/preview\/minimal-text-screenshot.webp",
         "themePreviewPaths": {
-            "default": "template\/preview\/minimal-text-screenshot.webp"
+            "default": "\/docs\/template\/preview\/minimal-text-screenshot.webp",
+            "gamepal-sneslight": "\/docs\/template\/preview\/minimal-text-screenshot-gamepal-sneslight.webp",
+            "gbos-minimal": "\/docs\/template\/preview\/minimal-text-screenshot-gbos-minimal.webp",
+            "minuified-horizontal": "\/docs\/template\/preview\/minimal-text-screenshot-minuified-horizontal.webp"
         },
         "type": "standalone",
+        "interface": "full+front",
+        "portmaster": true,
+        "folder": true
+    },
+    {
+        "templateName": "theme-specific",
+        "variantName": "osx_mountain_lion",
+        "notes": "",
+        "previewPath": "\/docs\/template\/preview\/osx-mountain-lion.webp",
+        "themePreviewPaths": {
+            "default": "\/docs\/template\/preview\/osx-mountain-lion.webp",
+            "gamepal-sneslight": "\/docs\/template\/preview\/osx-mountain-lion-gamepal-sneslight.webp",
+            "gbos-minimal": "\/docs\/template\/preview\/osx-mountain-lion-gbos-minimal.webp",
+            "minuified-horizontal": "\/docs\/template\/preview\/osx-mountain-lion-minuified-horizontal.webp"
+        },
+        "type": "sibling",
         "interface": "full+front",
         "portmaster": true,
         "folder": true
