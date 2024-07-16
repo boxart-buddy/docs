@@ -46,7 +46,7 @@
                         <tbody>
 
                         {{ range $templates := .Site.Data.templates }}
-                            <tr class="template-variant template-{{ .templateName }}-{{ .variantName }}">
+                            <tr class="template-variant template-{{ .templateName }}-{{ .variantName }}" id="template-{{ .templateName }}-{{ .variantName }}">
                                 <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
                                     <img class="rounded-none" loading="lazy"
                                          src="{{ absURL .previewPath  }}"
