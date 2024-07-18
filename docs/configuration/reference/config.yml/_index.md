@@ -67,6 +67,12 @@ Your [https://www.screenscraper.fr/](https://www.screenscraper.fr/) username
 
 Your [https://www.screenscraper.fr/](https://www.screenscraper.fr/) password
 
+#### scrape_threads
+
+**type:**```string```   **required:** no    **default:** ```1```
+
+The number of threads to scrape with. You need an [upgraded account with screenscraper.fr](https://www.patreon.com/screenscraper) for anything higher than 1 (the default).
+
 #### skyscraper_config_folder_path
 
 **type:**```string```   **required:** no    **default:** ```'~/.skyscraper'```
