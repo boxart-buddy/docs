@@ -39,6 +39,14 @@ Bootstrap attempts to auto generate config_folder.yml for you but there may be f
 
 See [Configuration Reference]( {{< ref "configuration" >}}) for more details
 
+### Download Cache (Optional)
+
+```shell
+make dl-cache
+```
+
+You can download a cache file which will likely reduce the amount of roms you need to scrape, this is optional but highly recommended.
+
 ### Scrape
 
 ```shell
