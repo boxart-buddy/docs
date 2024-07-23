@@ -1,0 +1,3 @@
+{{- $variant := .Get 0 -}}
+{{ .Scratch.Set "variant" $variant }}
+{{ partial "gallery_variant" . }}

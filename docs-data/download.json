@@ -1,0 +1,35 @@
+{
+    "artbook-next": [
+        {
+            "artbook_next_alt" : {
+                "small": "https://download.link/abcde"
+            }
+        }
+    ],
+    "cartwheel": [],
+    "friends-of-boxart-buddy": [
+        {
+            "incognitoman_retro_dither" : {
+                "small": "https://download.link/abcde"
+            },
+            "jdcross_brush_torn" : {
+                "small": "https://download.link/abcde"
+            },
+            "jdcross_brush_emboss" : {
+                "small": "https://download.link/abcde"
+            },
+            "tokumeino_simple_box_cart" : {
+                "small": "https://download.link/abcde"
+            },
+            "tokumeino_game_logo" : {
+                "small": "https://download.link/abcde"
+            },
+            "tokumeino_game_logo_halftone" : {
+                "small": "https://download.link/abcde"
+            }
+        }
+    ],
+    "game-logo-list": [],
+    "minimal": [],
+    "theme-specific": []
+}

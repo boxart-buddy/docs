@@ -1,231 +1,26 @@
 [
     {
-        "templateName": "artbook-next",
-        "variantName": "artbook_next",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/artbook-next.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/artbook-next.webp"
-        },
-        "type": "sibling",
-        "interface": "full+front",
-        "portmaster": true,
-        "folder": true
+        "name": "artbook-next",
+        "description": "Generates artwork to complement the theme 'Artbook Next'"
     },
     {
-        "templateName": "artbook-next",
-        "variantName": "artbook_next_alt",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/artbook-next-alt.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/artbook-next-alt.webp"
-        },
-        "type": "sibling",
-        "interface": "full+front",
-        "portmaster": true,
-        "folder": true
+        "name": "cartwheel",
+        "description": "Templates that focus on carts and boxes, works best with 3rd, 4th and 5th gen systems."
     },
     {
-        "templateName": "artbook-next",
-        "variantName": "artbook_next_vertical",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/artbook-next-vertical.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/artbook-next-vertical.webp",
-            "gamepal-sneslight": "\/docs\/template\/preview\/artbook-next-vertical-gamepal-sneslight.webp",
-            "gbos-minimal": "\/docs\/template\/preview\/artbook-next-vertical-gbos-minimal.webp",
-            "minuified-horizontal": "\/docs\/template\/preview\/artbook-next-vertical-minuified-horizontal.webp"
-        },
-        "type": "sibling",
-        "interface": "full+front",
-        "portmaster": true,
-        "folder": true
+        "name": "friends-of-boxart-buddy",
+        "description": "These simple boxart styles can be used standalone and were provided by users on the muOS Discord server"
     },
     {
-        "templateName": "cartwheel",
-        "variantName": "cartwheel_right_game_logo",
-        "notes": "some roms dont have cart images, so this variant might not work perfectly for large romsets or some platforms",
-        "previewPath": "\/docs\/template\/preview\/cartwheel-right-game-logo.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/cartwheel-right-game-logo.webp",
-            "gamepal-sneslight": "\/docs\/template\/preview\/cartwheel-right-game-logo-gamepal-sneslight.webp",
-            "gbos-minimal": "\/docs\/template\/preview\/cartwheel-right-game-logo-gbos-minimal.webp",
-            "minuified-horizontal": "\/docs\/template\/preview\/cartwheel-right-game-logo-minuified-horizontal.webp"
-        },
-        "type": "sibling",
-        "interface": "full+behind",
-        "portmaster": true,
-        "folder": false
+        "name": "game-logo-list",
+        "description": "Provide styles that focus on the game logo (a.k.a wheel). Can complement a variety of themes."
     },
     {
-        "templateName": "cartwheel",
-        "variantName": "cartwheel_stacked_boxes",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/cartwheel-stacked-boxes.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/cartwheel-stacked-boxes.webp"
-        },
-        "type": "sibling",
-        "interface": "full+behind",
-        "portmaster": true,
-        "folder": false
+        "name": "minimal",
+        "description": "Generate boxart in the style of 'minUI' a minimal, text based interface. Variant included with screenshot in background"
     },
     {
-        "templateName": "friends-of-boxart-buddy",
-        "variantName": "incognitoman_retro_dither",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/incognitoman-retro-dither.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/incognitoman-retro-dither.webp"
-        },
-        "type": "standalone",
-        "interface": "full+behind",
-        "portmaster": true,
-        "folder": false
-    },
-    {
-        "templateName": "friends-of-boxart-buddy",
-        "variantName": "jdcross_brush_torn",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/jdcross-brush-torn.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/jdcross-brush-torn.webp"
-        },
-        "type": "standalone",
-        "interface": "full+front",
-        "portmaster": true,
-        "folder": false
-    },
-    {
-        "templateName": "friends-of-boxart-buddy",
-        "variantName": "jdcross_brush_emboss",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/jdcross-brush-emboss.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/jdcross-brush-emboss.webp"
-        },
-        "type": "standalone",
-        "interface": "full+front",
-        "portmaster": true,
-        "folder": false
-    },
-    {
-        "templateName": "friends-of-boxart-buddy",
-        "variantName": "tokumeino_simple_box_cart",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/tokumeino-simple-box-cart.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/tokumeino-simple-box-cart.webp"
-        },
-        "type": "standalone",
-        "interface": "full+behind",
-        "portmaster": true,
-        "folder": false
-    },
-    {
-        "templateName": "friends-of-boxart-buddy",
-        "variantName": "tokumeino_game_logo",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/tokumeino-game-logo.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/tokumeino-game-logo.webp"
-        },
-        "type": "standalone",
-        "interface": "full+behind",
-        "portmaster": true,
-        "folder": false
-    },
-    {
-        "templateName": "friends-of-boxart-buddy",
-        "variantName": "tokumeino_game_logo_halftone",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/tokumeino-game-logo-halftone.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/tokumeino-game-logo-halftone.webp"
-        },
-        "type": "standalone",
-        "interface": "full+behind",
-        "portmaster": true,
-        "folder": false
-    },
-    {
-        "templateName": "game-logo-list",
-        "variantName": "game_logo_scrolling",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/game-logo-scrolling.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/game-logo-scrolling.webp",
-            "gamepal-sneslight": "\/docs\/template\/preview\/game-logo-scrolling-gamepal-sneslight.webp",
-            "gbos-minimal": "\/docs\/template\/preview\/game-logo-scrolling-gbos-minimal.webp",
-            "minuified-horizontal": "\/docs\/template\/preview\/game-logo-scrolling-minuified-horizontal.webp"
-        },
-        "type": "sibling",
-        "interface": "full+front",
-        "portmaster": true,
-        "folder": false
-    },
-    {
-        "templateName": "game-logo-list",
-        "variantName": "splitscreen",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/splitscreen.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/splitscreen.webp",
-            "gamepal-sneslight": "\/docs\/template\/preview\/splitscreen-gamepal-sneslight.webp",
-            "gbos-minimal": "\/docs\/template\/preview\/splitscreen-gbos-minimal.webp",
-            "minuified-horizontal": "\/docs\/template\/preview\/splitscreen-minuified-horizontal.webp"
-        },
-        "type": "sibling",
-        "interface": "full+front",
-        "portmaster": true,
-        "folder": false
-    },
-    {
-        "templateName": "minimal",
-        "variantName": "text_only",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/minimal-text-only.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/minimal-text-only.webp",
-            "gamepal-sneslight": "\/docs\/template\/preview\/minimal-text-only-gamepal-sneslight.webp",
-            "gbos-minimal": "\/docs\/template\/preview\/minimal-text-only-gbos-minimal.webp",
-            "minuified-horizontal": "\/docs\/template\/preview\/minimal-text-only-minuified-horizontal.webp"
-        },
-        "type": "standalone",
-        "interface": "full+front",
-        "portmaster": true,
-        "folder": true
-    },
-    {
-        "templateName": "minimal",
-        "variantName": "text_screenshot",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/minimal-text-screenshot.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/minimal-text-screenshot.webp",
-            "gamepal-sneslight": "\/docs\/template\/preview\/minimal-text-screenshot-gamepal-sneslight.webp",
-            "gbos-minimal": "\/docs\/template\/preview\/minimal-text-screenshot-gbos-minimal.webp",
-            "minuified-horizontal": "\/docs\/template\/preview\/minimal-text-screenshot-minuified-horizontal.webp"
-        },
-        "type": "standalone",
-        "interface": "full+front",
-        "portmaster": true,
-        "folder": true
-    },
-    {
-        "templateName": "theme-specific",
-        "variantName": "osx_mountain_lion",
-        "notes": "",
-        "previewPath": "\/docs\/template\/preview\/osx-mountain-lion.webp",
-        "themePreviewPaths": {
-            "default": "\/docs\/template\/preview\/osx-mountain-lion.webp",
-            "gamepal-sneslight": "\/docs\/template\/preview\/osx-mountain-lion-gamepal-sneslight.webp",
-            "gbos-minimal": "\/docs\/template\/preview\/osx-mountain-lion-gbos-minimal.webp",
-            "minuified-horizontal": "\/docs\/template\/preview\/osx-mountain-lion-minuified-horizontal.webp"
-        },
-        "type": "sibling",
-        "interface": "full+front",
-        "portmaster": true,
-        "folder": true
+        "name": "theme-specific",
+        "description": "Provide support for a variety of third party themes"
     }
 ]

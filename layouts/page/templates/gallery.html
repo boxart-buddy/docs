@@ -3,94 +3,11 @@
         {{ partial "sidebar.html" (dict "context" .) }}
         <article
                 class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-            <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+            <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-pt-4 ltr:hx-pl-12 ltr:hx-pl-6 pr-0">
                 {{ partial "breadcrumb.html" . }}
                 <div class="content">
                     <h1>{{ .Title }}</h1>
                     {{ .Content }}
-
-                    <table class="table-fixed">
-                        <thead>
-                        <tr>
-                            <th class="w-96">
-                                <form class="max-w-sm mx-auto">
-                                    <select name="select-theme" id="select-theme"
-                                            class="block w-full p-2 mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                        <option value="default">default</option>
-                                        {{ range $themes := .Site.Data.themes }}
-                                            <option value="{{ . }}">{{ . }}</option>
-                                        {{ end }}
-                                    </select>
-                                </form>
-                            </th>
-                            <th>
-                                <form class="max-w-sm mx-auto">
-                                    <select name="select-variant" id="select-variant"
-                                            class="block w-full p-2 mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                                        <option value="all">all</option>
-                                        {{ range $templates := .Site.Data.templates }}
-                                            <option value="{{ .templateName }}-{{ .variantName }}">
-                                                {{ .templateName }}-{{ .variantName }}
-                                            </option>
-                                        {{ end }}
-                                    </select>
-                                </form>
-
-                            </th>
-                            <th>{{ partial "icon.html" (dict "name" "folder" "title" "Creates Folder Artwork?") }} </th>
-                            <th>{{ partial "icon.html" (dict "name" "boat" "title" "Creates Portmaster Artwork?") }} </th>
-                            <th><a href="{{ ref . "templates/types" }}">types</a></th>
-                        </tr>
-                        </thead>
-
-                        <tbody>
-
-                        {{ range $templates := .Site.Data.templates }}
-                            <tr class="template-variant template-{{ .templateName }}-{{ .variantName }}" id="template-{{ .templateName }}-{{ .variantName }}">
-                                <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
-                                    <img class="rounded-none" loading="lazy"
-                                         src="{{ absURL .previewPath  }}"
-                                         data-original-src="{{ absURL .previewPath  }}"
-                                         alt="{{ .variantName }}"
-                                            {{ if gt (len .themePreviewPaths) 1 }}
-                                                data-themeable="true"
-                                                data-themes="{{ .themePreviewPaths | jsonify }}"
-                                            {{ end }}
-                                    />
-                                </td>
-                                <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
-                                    {{ .templateName }}<br>{{ .variantName }}
-                                </td>
-                                <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
-                                    {{ if .folder }}
-                                        {{ partial "icon.html" (dict "name" "check" "title" "yes" "attributes" "color=green") }}
-                                    {{ else }}
-                                        {{ partial "icon.html" (dict "name" "x-mark" "title" "no" "attributes" "color=red") }}
-                                    {{ end }}
-                                </td>
-                                <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
-                                    {{ if .portmaster }}
-                                        {{ partial "icon.html" (dict "name" "check" "title" "yes" "attributes" "color=green") }}
-                                    {{ else }}
-                                        {{ partial "icon.html" (dict "name" "x-mark" "title" "no" "attributes" "color=red") }}
-                                    {{ end }}
-                                </td>
-                                <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
-                                    {{ partial "badge.html" (dict "text" .type "title" "type" "color" "green") }}
-                                    {{ partial "badge.html" (dict "text" .interface "title" "interface" "color" "yellow") }}
-                                </td>
-                            </tr>
-                            <tr class="template-variant template-{{ .templateName }}-{{ .variantName }}">
-                                {{ if ne .notes "" }}
-                                    <td colspan="5">{{ .notes }}</td>
-                                {{ end }}
-
-                            </tr>
-                        {{ end }}
-
-                        </tbody>
-                    </table>
-
                 </div>
                 {{ partial "components/last-updated.html" . }}
                 {{ partial "components/pager.html" . }}
@@ -114,24 +31,6 @@
                 }
                 img.src = newSrc;
             });
-        });
-
-        // filter rows
-        var variantSelect = document.getElementById("select-variant");
-        variantSelect.addEventListener("change", function () {
-            let variant = event.target.value;
-            if (variant === 'all') {
-                document.querySelectorAll('tbody tr.template-variant').forEach(tr => {
-                    tr.style.display = "table-row";
-                });
-            }
-
-            if (variant !== 'all') {
-                document.querySelector(`tbody tr.template-${variant}`).style.display = "table-row";
-                document.querySelectorAll(`tbody tr:not(.template-${variant})`).forEach(tr => {
-                    tr.style.display = "none";
-                });
-            }
         });
     </script>
 

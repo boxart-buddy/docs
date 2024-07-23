@@ -6,3 +6,5 @@ layout: templates/gallery
 weight: 1
 breadcrumbs: false
 ---
+
+{{< gallery/template >}}

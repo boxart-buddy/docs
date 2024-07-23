@@ -1,0 +1,23 @@
+<table class="table-fixed" style="display:table; width: 100%">
+    <tbody>
+
+    {{ range $templates := .Page.Site.Data.templates }}
+    <tr class="template-variant template-{{ .name }}" id="template-{{ .name }}">
+        <td>
+            <img class="rounded-none" loading="lazy"
+                 src="images/{{ .name  }}.png"
+                 alt="{{ .variantName }}"
+            />
+        </td>
+        <td>
+            <h4 class="mt-0">{{ .name }}</h4>
+            <p>{{ .description }}</p>
+        </td>
+        <td class="w-24">
+            <a href="{{ .name }}" class="not-prose text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">View</a>
+        </td>
+    </tr>
+    {{ end }}
+
+    </tbody>
+</table>
