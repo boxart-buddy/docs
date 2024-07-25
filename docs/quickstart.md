@@ -17,8 +17,6 @@ All commands should be run from the root of the boxart-buddy repository
 make bootstrap
 ```
 
-You'll be prompted to enter the root path to 'folder_roms', which must be a folder that exists and contains subfolders with your roms in them. Boxart Buddy assumes that each folder contains roms for one platform only.
-
 This will generate config files inside ./user_config folder.
 
 {{< filetree/container >}}
