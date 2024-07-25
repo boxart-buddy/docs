@@ -16,11 +16,11 @@
             </form>
         </th>
         <th>
-            Variant
+
         </th>
-        <th>{{ partial "icon.html" (dict "name" "palette" "title" "Creates Rom Artwork?") }} </th>
-        <th>{{ partial "icon.html" (dict "name" "folder" "title" "Creates Folder Artwork?") }} </th>
-        <th><a href="{{ ref . "templates/types" }}">types</a></th>
+        <th>
+
+        </th>
     </tr>
     </thead>
 
@@ -28,7 +28,7 @@
 
     {{ range $variants := index .Page.Site.Data.variants $variant }}
     <tr class="template-variant template-{{ .templateName }}-{{ .variantName }}" id="template-{{ .templateName }}-{{ .variantName }}">
-        <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
+        <td>
         <img class="rounded-none" loading="lazy"
              src="{{ absURL .previewPath  }}"
              data-original-src="{{ absURL .previewPath  }}"
@@ -39,36 +39,41 @@
              {{ end }}
         />
         </td>
-        <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
-        {{ .variantName }}
-        </td>
+        <td>
+        <b>Variant:</b> {{ .variantName }}<br/>
+            <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">
+                {{ partial "icon.html" (dict "name" "palette" "title" "Artwork" "attributes" "") }}
+                Artwork:
+                {{ if .artwork }}
+                    Yes
+                {{ else }}
+                    No
+                {{ end }}
+            </span>
 
-        <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
-        {{ if .artwork }}
-        {{ partial "icon.html" (dict "name" "check" "title" "yes" "attributes" "color=green") }}
-        {{ else }}
-        {{ partial "icon.html" (dict "name" "x-mark" "title" "no" "attributes" "color=red") }}
-        {{ end }}
-        </td>
+            <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">
+                {{ partial "icon.html" (dict "name" "folder" "title" "Folder" "attributes" "") }}
+                Folder:
+                {{ if .folder }}
+                    Yes
+                {{ else }}
+                    No
+                {{ end }}
+            </span>
 
-        <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
-        {{ if .folder }}
-        {{ partial "icon.html" (dict "name" "check" "title" "yes" "attributes" "color=green") }}
-        {{ else }}
-        {{ partial "icon.html" (dict "name" "x-mark" "title" "no" "attributes" "color=red") }}
-        {{ end }}
-        </td>
+            {{ partial "badge.html" (dict "text" .type "title" "type" "color" "green") }}
+            {{ partial "badge.html" (dict "text" .interface "title" "interface" "color" "yellow") }}
 
-        <td {{ if ne .notes "" }} rowspan="1" {{ else }} rowspan="2" {{ end }}>
-        {{ partial "badge.html" (dict "text" .type "title" "type" "color" "green") }}
-        {{ partial "badge.html" (dict "text" .interface "title" "interface" "color" "yellow") }}
-        </td>
-    </tr>
-    <tr class="template-variant template-{{ .templateName }}-{{ .variantName }}">
-        {{ if ne .notes "" }}
-        <td colspan="5">{{ .notes }}</td>
-        {{ end }}
+            <br/>
+            <br/>
 
+            {{ .notes | safeHTML }}
+        </td>
+        <td>
+            {{ if .downloadLink }}
+            <a href="{{ .downloadLink }}" class="not-prose text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Download Pack</a>
+            {{ end }}
+        </td>
     </tr>
     {{ end }}
 

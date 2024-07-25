@@ -13,7 +13,7 @@ Tested and working on Fedora 28+, Debian 12+, Ubuntu 22+ and macOS 14.5 <br/>
 
 If it doesn't work on your particular distro please raise an issue.
 
-You can view the script being run [here] (https://github.com/boxart-buddy/boxart-buddy/blob/main/install.sh)
+You can view the installation script [here](https://github.com/boxart-buddy/boxart-buddy/blob/main/install.sh)
 
 {{< tabs items="macOS,Linux" >}}
 
@@ -34,6 +34,14 @@ wget -q -O - https://raw.githubusercontent.com/boxart-buddy/boxart-buddy/main/in
 {{< /tab >}}
 
 {{< /tabs >}}
+
+## Update
+
+If you've already downloaded Boxart Buddy you can run this from install directory to update to the latest version
+
+```bash
+make update
+```
 
 ## Manual Installation / Development Version
 

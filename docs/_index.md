@@ -12,7 +12,7 @@ cascade:
   </a>
 
   <p align="left">
-    Boxart Buddy is a command line application written in PHP that helps to generate artwork for SBC Gaming & Retro Handlhelds in conjunction with <a href="https://github.com/Gemba/Skyscraper/">Skyscraper</a>. This early version is desgined to work with <a href="https://muos.dev/help/artwork">MUOS</a> and devices like the ANBERNIC RG35XX/Plus/H/SP
+    Boxart Buddy is a command line application written in PHP that helps to generate artwork for SBC Gaming & Retro Handlhelds in conjunction with <a href="https://github.com/Gemba/Skyscraper/">Skyscraper</a>. This early version is desgined to work with <a href="https://muos.dev/help/artwork">MUOS</a> and devices like the ANBERNIC RG35xx/RG40xx/Plus/H/SP
   </p>
 
 </div>

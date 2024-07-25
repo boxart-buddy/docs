@@ -40,7 +40,7 @@ params:
     logo:
       path: images/logo.png
       dark: images/logo.png
-      link: /boxart-buddy
+      link: /docs
       width: 248
       height: 31
 

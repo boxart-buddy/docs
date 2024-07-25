@@ -4,6 +4,7 @@
             "templateName": "artbook-next",
             "variantName": "artbook_next_alt",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/artbook-next-alt.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/artbook-next-alt.webp"
@@ -15,8 +16,37 @@
         },
         {
             "templateName": "artbook-next",
+            "variantName": "artbook_next_folder_static",
+            "notes": "",
+            "downloadLink": null,
+            "previewPath": "\/docs\/template\/preview\/artbook-next-folder-static.webp",
+            "themePreviewPaths": {
+                "default": "\/docs\/template\/preview\/artbook-next-folder-static.webp"
+            },
+            "type": "sibling",
+            "interface": "full+front",
+            "artwork": false,
+            "folder": true
+        },
+        {
+            "templateName": "artbook-next",
+            "variantName": "artbook_next_folder_static_alt",
+            "notes": "",
+            "downloadLink": null,
+            "previewPath": "\/docs\/template\/preview\/artbook-next-folder-static-alt.webp",
+            "themePreviewPaths": {
+                "default": "\/docs\/template\/preview\/artbook-next-folder-static-alt.webp"
+            },
+            "type": "sibling",
+            "interface": "full+front",
+            "artwork": false,
+            "folder": true
+        },
+        {
+            "templateName": "artbook-next",
             "variantName": "artbook_next_game_list",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/artbook-next-alt-game-list.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/artbook-next-alt-game-list.webp"
@@ -32,6 +62,7 @@
             "templateName": "cartwheel",
             "variantName": "cartwheel_right_game_logo",
             "notes": "some roms dont have cart images, so this variant might not work perfectly for large romsets or some platforms",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/cartwheel-right-game-logo.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/cartwheel-right-game-logo.webp",
@@ -48,6 +79,7 @@
             "templateName": "cartwheel",
             "variantName": "cartwheel_stacked_boxes",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/cartwheel-stacked-boxes.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/cartwheel-stacked-boxes.webp"
@@ -63,6 +95,7 @@
             "templateName": "friends-of-boxart-buddy",
             "variantName": "incognitoman_retro_dither",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/incognitoman-retro-dither.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/incognitoman-retro-dither.webp"
@@ -76,6 +109,7 @@
             "templateName": "friends-of-boxart-buddy",
             "variantName": "jdcross_brush_torn",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/jdcross-brush-torn.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/jdcross-brush-torn.webp"
@@ -89,6 +123,7 @@
             "templateName": "friends-of-boxart-buddy",
             "variantName": "jdcross_brush_emboss",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/jdcross-brush-emboss.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/jdcross-brush-emboss.webp"
@@ -102,6 +137,7 @@
             "templateName": "friends-of-boxart-buddy",
             "variantName": "tokumeino_simple_box_cart",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/tokumeino-simple-box-cart.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/tokumeino-simple-box-cart.webp"
@@ -115,6 +151,7 @@
             "templateName": "friends-of-boxart-buddy",
             "variantName": "tokumeino_game_logo",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/tokumeino-game-logo.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/tokumeino-game-logo.webp"
@@ -128,6 +165,7 @@
             "templateName": "friends-of-boxart-buddy",
             "variantName": "tokumeino_game_logo_halftone",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/tokumeino-game-logo-halftone.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/tokumeino-game-logo-halftone.webp"
@@ -143,6 +181,7 @@
             "templateName": "game-logo-list",
             "variantName": "game_logo_scrolling",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/game-logo-scrolling.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/game-logo-scrolling.webp",
@@ -159,6 +198,7 @@
             "templateName": "game-logo-list",
             "variantName": "splitscreen",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/splitscreen.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/splitscreen.webp",
@@ -177,6 +217,7 @@
             "templateName": "minimal",
             "variantName": "text_only",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/minimal-text-only.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/minimal-text-only.webp",
@@ -193,6 +234,7 @@
             "templateName": "minimal",
             "variantName": "text_screenshot",
             "notes": "",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/minimal-text-screenshot.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/minimal-text-screenshot.webp",
@@ -210,7 +252,8 @@
         {
             "templateName": "theme-specific",
             "variantName": "osx_mountain_lion",
-            "notes": "",
+            "notes": "For use with the OSX Mountain Lion Theme <a href=\"https:\/\/discord.com\/channels\/1152022492001603615\/1248218290195796018\"> Discord Link <\/a>",
+            "downloadLink": null,
             "previewPath": "\/docs\/template\/preview\/osx-mountain-lion.webp",
             "themePreviewPaths": {
                 "default": "\/docs\/template\/preview\/osx-mountain-lion.webp",
@@ -222,6 +265,20 @@
             "interface": "full+front",
             "artwork": true,
             "folder": true
+        },
+        {
+            "templateName": "theme-specific",
+            "variantName": "retrowave",
+            "notes": "For use with the Retrowave Theme <a href=\"https:\/\/discord.com\/channels\/1152022492001603615\/1248730050661191790\"> Discord Link <\/a>",
+            "downloadLink": "https:\/\/onedrive.live.com\/download?resid=60C7045B43315384%21347&authkey=!AL_UkF3npG42RR0",
+            "previewPath": "\/docs\/template\/preview\/retrowave.webp",
+            "themePreviewPaths": {
+                "default": "\/docs\/template\/preview\/retrowave.webp"
+            },
+            "type": "standalone",
+            "interface": "full+front",
+            "artwork": true,
+            "folder": false
         }
     ]
 }
