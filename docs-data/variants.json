@@ -44,6 +44,20 @@
         },
         {
             "templateName": "artbook-next",
+            "variantName": "artbook_next_folder_static_pop",
+            "notes": "",
+            "downloadLink": null,
+            "previewPath": "\/docs\/template\/preview\/artbook-next-folder-static-pop.webp",
+            "themePreviewPaths": {
+                "default": "\/docs\/template\/preview\/artbook-next-folder-static-pop.webp"
+            },
+            "type": "sibling",
+            "interface": "full+front",
+            "artwork": false,
+            "folder": true
+        },
+        {
+            "templateName": "artbook-next",
             "variantName": "artbook_next_game_list",
             "notes": "",
             "downloadLink": null,
